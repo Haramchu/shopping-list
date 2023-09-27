@@ -9,7 +9,9 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="{% url 'main:logout' %}">Logout</a>
+                    <a class="nav-link" href="{% url 'main:logout' %}">
+                        Logout
+                    </a>
                 </li>
             </ul>
         </div>
@@ -60,6 +62,11 @@
         <a href="{% url 'main:create_product' %}">
             <button class="btn btn-primary">
                 Add New Product
+            </button>
+        </a>
+        <a href="{% url 'main:logout' %}">
+            <button class="btn btn-primary">
+                Logout
             </button>
         </a>
     </div>
